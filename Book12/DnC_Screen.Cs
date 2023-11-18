@@ -45,7 +45,7 @@ namespace Book12
             MapRenderer mapper = new MapRenderer();
             mapper.RenderMapInitial();
             mapper.RenderCities();
-            
+
             //DL gen
             DVPrinter dvprint = new DVPrinter();
             dvprint.Intialize();
@@ -54,8 +54,8 @@ namespace Book12
             dvprint.GenerateAndDrawWithCenters(centerPoints);
 
 
-            
-            
+
+
             //Gets the Locations of the Cities
             List<Point> points = new List<Point>();
             foreach (var settlement in World.w_settlements.Values)
